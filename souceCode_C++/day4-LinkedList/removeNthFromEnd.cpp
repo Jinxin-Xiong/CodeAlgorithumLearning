@@ -80,7 +80,8 @@ public:
           
           prev = slownode;
 
-          slowidx++; slownode = slownode->next; }
+          slowidx++; slownode = slownode->next; 
+        }
 
         fastnode = fastnode->next;
         fastidx++;
