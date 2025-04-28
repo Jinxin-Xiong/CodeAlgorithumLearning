@@ -47,8 +47,7 @@ public:
 
           number_map.insert({nums[i], i});
         }
-
-        return vector<int>{i, itr->second};
+        else { return vector<int>{i, itr->second}; }
     }
 
     return vector<int>{0,0};
