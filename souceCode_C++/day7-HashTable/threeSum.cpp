@@ -31,7 +31,7 @@ public:
             else if(count < 0) left_idx++;
             else{
 
-              result.push_back(vector<int>{i,left_idx,right_idx});
+              result.push_back(vector<int>{nums[i],nums[left_idx],nums[right_idx]});
 
               while(left_idx < right_idx && nums[left_idx] == nums[left_idx+1]) left_idx++;
               while(left_idx < right_idx && nums[right_idx] == nums[right_idx-1]) right_idx--;
