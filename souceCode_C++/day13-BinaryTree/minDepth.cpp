@@ -15,8 +15,6 @@ struct TreeNode{
 class Solution {
 public:
 
-    int result;
-
     int recursiveDepth(TreeNode* node){
 
       if(node == NULL) return 0;

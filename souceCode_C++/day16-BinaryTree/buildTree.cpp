@@ -37,7 +37,7 @@ public:
       int new_subinrightidx_righttree = subinrightidx;
 
       int new_subpostleftidx_lefttree = subpostleftidx;
-      int new_subpostrightidx_lefttree = new_subinrightidx_lefttree - new_subinleftidx_lefttree;
+      int new_subpostrightidx_lefttree = subpostleftidx + new_subinrightidx_lefttree - new_subinleftidx_lefttree;
 
       int new_subpostleftidx_righttree = new_subpostrightidx_lefttree;
       int new_subpostrightidx_righttree = subpostrightidx - 1;
